@@ -1,0 +1,227 @@
+body {
+  width: 100%
+}
+
+.pg-profile {
+  /* display: table; */
+  text-align: center;
+}
+
+.pg-profile-intro {
+  background-color: #23232e;
+  /* height:700px; */
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.pg-profile-intro-picture {
+  /* padding-left: 29%; */
+  /* padding-right: 29%; */
+}
+
+.pg-profile-intro-picture > img{
+  width:250px;
+  border-radius: 50%;
+}
+
+.pg-profile-intro-name {
+  color: #FFFFFF;
+  font-size: 58px;
+}
+
+.pg-profile-intro-motto {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-top: 31px;
+}
+
+.pg-profile-intro-btn {
+  margin-top: 87px;
+}
+
+.pg-profile-intro-btn > input {
+  width: 50px;
+}
+/*--------------------------*/
+.pg-profile-whoami {
+  background-color: #FFFFFF;
+  background-image: url("../img/background.png");
+  background-repeat: repeat;
+  /* height:800px; */
+  padding-top: 86px;
+  padding-bottom: 50px;
+  /* padding-left: 22%; */
+  /* padding-right: 22%; */
+}
+
+.pg-profile-whoami-introduce {
+    max-width: 536px;
+
+    margin: 0 auto;
+}
+
+.pg-profile-whoami-introduce-text {
+  font-size: 19px;
+  color: #4C4C4C;
+}
+
+.pg-profile-whoami-introduce-text + .pg-profile-whoami-introduce-text {
+  margin-top: 32px;
+}
+
+.pg-profile-whoami-enlightenment {
+  font-size: 60px;
+  color: #4C4C4C;
+  margin-top: 120px;
+  max-width: 540px;
+  margin: 75px auto;
+}
+
+.pg-profile-whoami-textbox {
+  margin-top: 72px;
+  max-width: 685px;
+  margin: 33px auto;
+}
+
+.pg-profile-whoami-textbox > li{
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+}
+
+.pg-profile-whoami-textbox > li > h3 {
+  font-size: 17px;
+  color: #4C4C4C;
+}
+
+.pg-profile-whoami-textbox > li > p {
+  font-size: 14px;
+  color: #949494;
+}
+
+.pg-profile-intro-btn {
+
+}
+/*---------------------------*/
+.pg-profile-skill {
+  background-color: #23232e;
+  /* height:900px; */
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.pg-profile-skill-title {
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-bottom: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pg-profile-skill-logo {
+    max-width: 671px;
+
+    margin: 0 auto;
+}
+
+.pg-profile-skill-logo > li {
+  display: inline-block;
+}
+
+.pg-profile-skill-logo > li > figure > img {
+  width: 220px;
+  height: 220px;
+
+}
+
+.pg-profile-skill-logo-title {
+  color: #FFFFFF;
+
+}
+.pg-profile-skill-logo-explain {
+  color: #828282;
+  font-size: 11px;
+  margin-top: 1%;
+}
+
+.pg-profile-skill-btn {
+    margin-top: 62px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pg-profile-skill-btn > input {
+  width: 150px;
+  height: 50px;
+}
+/*---------------------------*/
+.pg-profile-interest {
+  background-color: #FFFFFF;
+  background-image: url("../img/background2.png");
+  /* height:1000px; */
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.pg-profile-interest-title {
+  font-size: 60px;
+  color: #4C4C4C;
+  /* margin-bottom: 4%; */
+  margin: 10px auto;
+}
+
+.pg-profile-interest-explain {
+    margin: 40px auto;
+
+}
+
+.pg-profile-interest-image {
+    max-width: 695px;
+    margin: 0 auto;
+}
+
+.pg-profile-interest-image > li {
+  display: inline-block;
+}
+
+.pg-profile-interest-image > li > img {
+  width: 220px;
+  height: 220px;
+  margin: 4px;
+  border-radius: 20%;
+}
+
+.pg-profile-interest-btn {
+  margin-top: 57px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pg-profile-interest-btn > input {
+  width: 150px;
+  height: 50px;
+}
+
+.pg-profile-footer {
+  background-color: #23232e;
+  height: 350px;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.pg-profile-footer-linkedsns > li {
+  display: inline-block;
+}
+
+.pg-profile-footer-linkedsns > li > a > img {
+  width:50px;
+
+}
+
+.pg-profile-footer-copyright {
+  margin-top: 40px;
+  color: #868686;
+  font-size: 13px;
+}

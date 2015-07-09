@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>PIKAKIN</title>
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js" ></script>
+  <script type="text/javascript" src="js/snowfall.min.jquery.js"></script>
+  <script type='text/javascript'>
+    $(document).ready(function(){
+    $(document).snowfall({
+                shadow : true,
+                round : true,
+                minSize: 5,
+                maxSize:8
+                })
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#button_top').click(function(){
+  	    $('html,body').animate({scrollTop:0},'slow');
+  	  });
+      $('#button_down').click(function(){
+        $('html,body').animate({scrollTop:700},'slow');
+      })
+    });
+  </script>
+</head>
+<body>
+  <article class="pg-profile">
+      <section class="pg-profile-intro">
+        <figure class="pg-profile-intro-picture">
+          <img src="img/pikakin.png">
+        </figure>
+        <h1 class="pg-profile-intro-name">
+          JEONG HONGSEOK
+        </h1>
+        <p class="pg-profile-intro-motto">
+          避けられないなら楽しめ
+        </p>
+        <button class="pg-profile-intro-btn">
+          <input id="button_down" type="image" src="img/button1.png"/>
+        </button>
+      </section>
+      <section class="pg-profile-whoami">
+        <div class="pg-profile-whoami-introduce">
+          <p class="pg-profile-whoami-introduce-text">
+            始めまして。
+            ジョン・ホンソクと申します。
+            23際で、1991年10月8日に生まれました。
+            故郷は韓国で、プサンという地域で生まれ、
+            隣のヤンさんという地域でずっと住んでいます。
+          </p>
+          <p class="pg-profile-whoami-introduce-text">
+            軍隊は2010年7月25日、18祭で5師団入隊にて、645日勤務しました。
+            ちなみに5師団は鍵部隊とも呼ばれます。
+            好きな食べ物はサクサクとした食感のチキンが好きです。
+            韓国に変えたら毎日食べようかなと思っています。
+
+          </p>
+        </div>
+          <h2 class="pg-profile-whoami-enlightenment">
+            学んだこと・気づき
+          </h2>
+          <ul class="pg-profile-whoami-textbox cf">
+            <li>
+              <h3>HTML5の書き方</h3>
+              <p>
+              そのその「div」を使って全部表現しましたが、目的に合わせてタグをつける方法を学びました。
+
+              </p>
+            </li>
+            <li>
+              <h3>CSSの書き方</h3>
+              <p>
+                クラス名を利用してスタイルを与えることとか、「>」とか「+」などの書き方を学んで嬉しいです。
+
+              </p>
+            </li>
+            <li>
+              <h3>ルールを守る</h3>
+              <p>
+                チーム開発で最も重要なようは一貫性で、結果は同じだけど、作る方法は山ほど多いです。
+                そこでちゃんとルールを気をつけながら作るのが大事だというのを感じました。
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="pg-profile-skill">
+        <h2 class="pg-profile-skill-title">
+          SKILL
+        </h2>
+        <ul class="pg-profile-skill-logo">
+          <li>
+            <figure>
+              <img src="img/html.png">
+              <figcaption>
+                <p class="pg-profile-skill-logo-title">HTML5</p>
+                <p class="pg-profile-skill-logo-explain">WebPageを作る</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/css3.png">
+              <figcaption>
+                <p class="pg-profile-skill-logo-title">CSS3</p>
+                <p class="pg-profile-skill-logo-explain">デザイン</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/js.png">
+              <figcaption>
+                <p class="pg-profile-skill-logo-title">JavaScript</p>
+                <p class="pg-profile-skill-logo-explain">動的につくれる</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/java.png">
+              <figcaption>
+                <p class="pg-profile-skill-logo-title">Java</p>
+                <p class="pg-profile-skill-logo-explain">オブジェクト志向</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/mysql.png">
+              <figcaption>
+                <p class="pg-profile-skill-logo-title">mysql</p>
+                <p class="pg-profile-skill-logo-explain">Database</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/android.png">
+              <figcaption>
+                <p class="pg-profile-skill-logo-title">Android</p>
+                <p class="pg-profile-skill-logo-explain">mobile</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+        <button class="pg-profile-skill-btn">
+          <input id="button_top" type="image" src="img/button2.png"/>
+          <!-- <img src="img/button2.png"> -->
+        </button>
+      </section>
+      <section class="pg-profile-interest">
+        <h2 class="pg-profile-interest-title">
+          PHOTOGRAYPHY
+        </h2>
+        <p  class="pg-profile-interest-explain">
+          自分が興味があるものです。<br>
+          最近興味ができたものもありますし、<br>
+          元々興味があったものもあります。<br>
+          では、どんなものがあるか見ていましょうか？<br>
+        </p>
+        <ul class="pg-profile-interest-image">
+          <li>
+            <img src="img/husanosuke.png">
+          </li>
+          <li>
+            <img src="img/chicken.png">
+          </li>
+          <li>
+            <img src="img/candy.png">
+          </li>
+          <li>
+            <img src="img/gokiburi.png">
+          </li>
+          <li>
+            <img src="img/scrooser.png">
+          </li>
+          <li>
+            <img src="img/pikakin.png">
+          </li>
+        </ul>
+
+        <button class="pg-profile-interest-btn">
+          <input id="button_top" type="image" src="img/button3.png"/>
+          <!-- <img src="img/button3.png"> -->
+        </button>
+      </section>
+  </article>
+  <footer class="pg-profile-footer">
+    <ul class="pg-profile-footer-linkedsns">
+      <li>
+        <a href="https://twitter.com/"><img src="img/twitter.png"></a>
+      </li>
+      <li>
+        <a href="https://dribbble.com/"><img src="img/dribbble.png">
+      </li>
+      <li>
+        <a href="https://behance.net/"><img src="img/behance.png">
+      </li>
+      <li>
+        <a href="https://instagram.com/"><img src="img/instagram.png">
+      </li>
+    </ul>
+    <p class="pg-profile-footer-copyright">
+      Copyright © 2015 All Rights Reserved.<br><br>
+       Made PIKAKIN
+    </p>
+  </footer>
+</body>
+</html>
